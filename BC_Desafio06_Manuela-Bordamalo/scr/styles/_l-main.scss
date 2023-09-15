@@ -1,0 +1,96 @@
+
+@import "./h-fonts";
+@import './h-mixin';
+@font-face {
+    font-family: "Lobster";
+    src: url("/BC_Desafio06_Manuela-Bordamalo/scr/fonts/Lobster-Regular.ttf");
+  }
+
+.main{
+    & Section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 100px;
+    }
+
+    & Section{
+        /*RECUADRO-1-2-3*/
+        @for $i from 1 through 3{
+            .Article-#{$i}{
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                width: 80vw;
+                font-family: $fontSecond;
+                border-radius: 10px;
+                padding:40px;
+                box-shadow: 0px 0px 10px hsl(208, 11%, 55%);
+
+                & img{
+                    width: 100%;
+                    height: auto;
+                }
+
+                & .Header{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 70%;
+
+                    & h2{
+                        font-weight: 700;
+                        color:  hsl(192, 100%, 9%);
+                    }
+
+                    & Main{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        font-weight: 400;
+                        color: hsl(208, 11%, 55%);
+                    }
+                }
+            }
+        }
+    }
+    
+    & Section{
+        /*RECUADRO*/
+        & Article{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px 60px 30px 60px;
+            position: relative;
+            top: 50px;
+
+            & Header{
+                font-family: $fontSecond;
+                font-weight: 700;
+
+                & h2{
+                    color:  hsl(192, 100%, 9%);
+                }
+
+                & Main{
+                    & a{
+                        align-items: center;
+                        text-decoration: none;
+                        font-family: $fontSecond;
+                        @include btn(hsl(322, 100%, 66%),#fff,false,200px,30px);
+    
+                        &:hover{
+                            @include btn(hsl(322, 65%, 76%),#fff,false,200px,30px);
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}

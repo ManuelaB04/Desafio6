@@ -1,0 +1,13 @@
+.html{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    margin: 0;
+    display: grid;
+    width: 100vw;
+    grid-template-rows: 120vh auto auto auto auto;
+    grid-template-columns: repeat(8,1fr);
+}

@@ -1,0 +1,376 @@
+/*# sourceMappingURL=styles.css.map */nd-image: url("/BC_Desafio06_Manuela-Bordamalo/public/imagenes/bg-hero-desktop.svg");
+  background-repeat: no-repeat;
+  grid-row: 1/3;
+  grid-column: 1/13;
+  padding: 80px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: hsl(193, 100%, 96%);
+  color: hsl(192, 100%, 9%);
+}
+.header section article Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.header section article Header figure img {
+  width: 100%;
+  height: auto;
+}
+.header section article Header a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  background-color: #fff;
+  color: hsl(208, 11%, 55%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 10px;
+  width: 140px;
+  height: 30px;
+  font-weight: 600;
+  box-shadow: -3px 3px 5px hsl(208, 11%, 55%);
+}
+.header section article Main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+.header section article Main picture img {
+  width: 100%;
+  height: auto;
+}
+.header section article Main Header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: justify;
+}
+.header section article Main Header h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.header section article Main Header p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.header section article Main Header a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.header section article Main Header a:hover {
+  background-color: hsl(322, 65%, 76%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("/BC_Desafio06_Manuela-Bordamalo/scr/fonts/Lobster-Regular.ttf");
+}
+.main Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+.main Section {
+  /*RECUADRO-1-2-3*/
+}
+.main Section .Article-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 80vw;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 0px 10px hsl(208, 11%, 55%);
+}
+.main Section .Article-1 img {
+  width: 100%;
+  height: auto;
+}
+.main Section .Article-1 .Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+.main Section .Article-1 .Header h2 {
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+}
+.main Section .Article-1 .Header Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+}
+.main Section .Article-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 80vw;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 0px 10px hsl(208, 11%, 55%);
+}
+.main Section .Article-2 img {
+  width: 100%;
+  height: auto;
+}
+.main Section .Article-2 .Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+.main Section .Article-2 .Header h2 {
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+}
+.main Section .Article-2 .Header Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+}
+.main Section .Article-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 80vw;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 0px 10px hsl(208, 11%, 55%);
+}
+.main Section .Article-3 img {
+  width: 100%;
+  height: auto;
+}
+.main Section .Article-3 .Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+.main Section .Article-3 .Header h2 {
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+}
+.main Section .Article-3 .Header Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+}
+.main Section {
+  /*RECUADRO*/
+}
+.main Section Article {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 60px 30px 60px;
+  position: relative;
+  top: 50px;
+}
+.main Section Article Header {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.main Section Article Header h2 {
+  color: hsl(192, 100%, 9%);
+}
+.main Section Article Header Main a {
+  align-items: center;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  font-weight: 600;
+}
+.main Section Article Header Main a:hover {
+  background-color: hsl(322, 65%, 76%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("/BC_Desafio06_Manuela-Bordamalo/scr/fonts/Lobster-Regular.ttf");
+}
+.fotter {
+  background-color: hsl(192, 100%, 9%);
+  background-image: url("/BC_Desafio06_Manuela-Bordamalo/public/imagenes/bg-hero-desktop.svg");
+  background-repeat: no-repeat;
+  color: hsl(193, 100%, 96%);
+  grid-row: 4/5;
+  grid-column: 1/13;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  /*HUDDLE*/
+  /*ACERCA DE 
+      Ya esta definido el color
+      de la letra en el Footer
+  */
+  /*CONTACTOS
+      Ya esta definido el color
+      de la letra en el Footer
+  */
+  /*LOGOS REDES*/
+  /*AUTORES*/
+}
+.fotter Section:nth-child(1) {
+  align-self: flex-start;
+}
+.fotter Section:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*LOCALIZACIÓN - LLAMADA - EMAIL*/
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.fotter Section:nth-child(2) .Article-4 {
+  display: flex;
+  flex-direction: row;
+}
+.fotter Section:nth-child(2) .Article-4 figure {
+  margin: 0px;
+}
+.fotter Section:nth-child(2) .Article-4 figure img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  border: solid hsl(193, 100%, 96%) 1px;
+}
+.fotter Section:nth-child(2) .Article-4 Main p {
+  color: hsl(193, 100%, 96%);
+}
+.fotter Section:nth-child(2) .Article-5 {
+  display: flex;
+  flex-direction: row;
+}
+.fotter Section:nth-child(2) .Article-5 figure {
+  margin: 0px;
+}
+.fotter Section:nth-child(2) .Article-5 figure img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  border: solid hsl(193, 100%, 96%) 1px;
+}
+.fotter Section:nth-child(2) .Article-5 Main p {
+  color: hsl(193, 100%, 96%);
+}
+.fotter Section:nth-child(2) .Article-6 {
+  display: flex;
+  flex-direction: row;
+}
+.fotter Section:nth-child(2) .Article-6 figure {
+  margin: 0px;
+}
+.fotter Section:nth-child(2) .Article-6 figure img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  border: solid hsl(193, 100%, 96%) 1px;
+}
+.fotter Section:nth-child(2) .Article-6 Main p {
+  color: hsl(193, 100%, 96%);
+}
+.fotter Section Article {
+  display: flex;
+  flex-direction: row;
+}
+.fotter Section Article figure {
+  margin: 0px;
+}
+.fotter Section Article figure img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  border: solid hsl(193, 100%, 96%) 1px;
+}
+.fotter Section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  gap: 150px;
+  width: 100%;
+}
+.fotter Section Article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}/*# sourceMappingURL=styles.css.map */
